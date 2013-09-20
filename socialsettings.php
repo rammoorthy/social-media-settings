@@ -16,7 +16,7 @@ function social_register_settings() {
 add_action( 'admin_init', 'social_register_settings' );
 
 function social_register_options_page() {
-	add_options_page('Page title', 'Social Media', 'manage_options', 'social-options', 'social_options_page');
+	add_options_page('Social Media', 'Social Media', 'manage_options', 'social-options', 'social_options_page');
 }
 add_action('admin_menu', 'social_register_options_page');
 
